@@ -1,5 +1,6 @@
 package vttp.batch5.sdf.task02;
 
+import java.io.File;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -19,7 +20,14 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 			
-		
+		File file = new File("TTT");
+		if(file.exists()) {
+		System.out.println("File exist\n");
+		}
+		else {
+		System.out.println("File does not exist\n");
+		}
+
 		Scanner scanner = new Scanner(System.in);
 			
 		char [][] board = {{' ', ' ', ' '}, 
@@ -190,5 +198,5 @@ public class Main {
 		System.out.println(board[2][0] + "|" + board[2][1] + "|" + board[2][2]);
 	}
 
-	
+
 }

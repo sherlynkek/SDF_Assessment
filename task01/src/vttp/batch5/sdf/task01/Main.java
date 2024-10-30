@@ -65,11 +65,12 @@ public class Main {
             }
         }    
     }
+
 	public class Information {
 	
 		public static String toSeason(int season) {
 			// season : season (1:spring, 2:summer, 3:fall, 4:winter)
-			
+
 			if (season == 1) {
 				System.out.println("Spring");
 			}
@@ -84,6 +85,7 @@ public class Main {
 			}
 			return "Invalid Season";
 		}
+
 		public static String toWeekday(int weekday) {
 			// weekday : day of the week, (0 - Sunday, 1 - Monday, etc)
 
@@ -110,6 +112,9 @@ public class Main {
 			}
 			return "Invalid day";
 		}
+
+		// int total = casual + registered cyclists;
+		
 	}
 }
 

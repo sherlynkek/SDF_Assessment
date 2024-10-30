@@ -10,7 +10,7 @@ import java.io.IOException;
 // see if the file exists
 // read the file (day.csv)
 // split the data accordingly
-// compare every individual data with themselves to find the common season /and day /and month /and total number of cyclists
+// compare every individual data with themselves to find the common season and/or day and/or month and/or total number of cyclists
 // example, in season 1: compare the days and within compare the month, after which calculate the amount of cyclists (casual and registered)
 // do this for all 4 seasons
 // then compare the results within the seasons to input into the final statment
@@ -65,9 +65,9 @@ public class Main {
             }
         }    
     }
-	public class Season {
+	public class Information {
 	
-		public Season() {
+		public void Season() {
 			
 			int season = 0;
 			if (season == 1) {
@@ -86,7 +86,6 @@ public class Main {
 				System.out.println("Winter");
 				
 			}
-	
 		}
 	}
 }

@@ -115,7 +115,7 @@ public class Main {
 				return (board[0][1] == ' ');
 		
 			case "3":
-					return (board[0][2] == ' ');
+				return (board[0][2] == ' ');
 	
 			case "4":
 				return (board[1][0] == ' ');

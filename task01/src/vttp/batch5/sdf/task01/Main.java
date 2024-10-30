@@ -66,7 +66,6 @@ public class Main {
             }
         }    
     }
-	
 	public class Season {
     
 		// 1:spring, 2:summer, 3:fall, 4:winter

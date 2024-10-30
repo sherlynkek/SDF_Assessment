@@ -12,7 +12,7 @@ public class Main {
 	// computer input 'O' randomly
 	// repeats until one side wins or both side tie
 	// -----------------------------------------------------------------------------------
-	// a tictactoe board is given and needs to be read
+	// a tictactoe board file is given and needs to be read
 	// list all the legal positions that user can place an 'X'
 	// from left to right : x = 0, 1, 2 and from top to bottom : y = 0, 1, 2
 	// the legal positions will be given a utility that can be used to gauge the winning possibility

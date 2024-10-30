@@ -67,25 +67,48 @@ public class Main {
     }
 	public class Information {
 	
-		public void Season() {
+		public static String toSeason(int season) {
+			// season : season (1:spring, 2:summer, 3:fall, 4:winter)
 			
-			int season = 0;
 			if (season == 1) {
 				System.out.println("Spring");
-				
 			}
 			else if (season == 2) {
 				System.out.println("Summer");
-				
 			}
 			else if (season == 3) {
 				System.out.println("Fall");
-				
 			}
 			else if (season == 4) {
 				System.out.println("Winter");
-				
 			}
+			return "Invalid Season";
+		}
+		public static String toWeekday(int weekday) {
+			// weekday : day of the week, (0 - Sunday, 1 - Monday, etc)
+
+			if (weekday == 0) {
+				System.out.println("Sunday");
+			}
+			else if (weekday == 1) {
+				System.out.println("Monday");
+			}
+			else if (weekday == 2) {
+				System.out.println("Tuesday");
+			}
+			else if (weekday == 3) {
+				System.out.println("Wednesday");
+			}
+			else if (weekday == 4) {
+				System.out.println("Thursday");
+			}
+			else if (weekday == 5) {
+				System.out.println("Friday");
+			}
+			else if (weekday == 6) {
+				System.out.println("Saturday");
+			}
+			return "Invalid day";
 		}
 	}
 }
